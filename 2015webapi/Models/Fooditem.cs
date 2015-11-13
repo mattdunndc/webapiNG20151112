@@ -6,7 +6,7 @@ namespace _2015webapi.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    public partial class foodapedia03
+    public partial class Fooditem
     {
         public int ID { get; set; }
 

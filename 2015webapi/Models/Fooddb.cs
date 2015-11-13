@@ -5,14 +5,14 @@ namespace _2015webapi.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class govdataModel1 : DbContext
+    public partial class Fooddb : DbContext
     {
-        public govdataModel1()
-            : base("name=govdataModel1")
+        public Fooddb()
+            : base("name=Fooddb")
         {
         }
 
-        public virtual DbSet<foodapedia03> foodapedia03 { get; set; }
+        public virtual DbSet<Fooditem> Fooditems { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

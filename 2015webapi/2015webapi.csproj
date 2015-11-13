@@ -242,6 +242,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FooditemsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -250,9 +251,8 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\foodapedia03.cs" />
-    <Compile Include="Controllers\foodapedia03Controller.cs" />
-    <Compile Include="Models\govdataModel1.cs" />
+    <Compile Include="Models\Fooddb.cs" />
+    <Compile Include="Models\Fooditem.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductRepository.cs" />
